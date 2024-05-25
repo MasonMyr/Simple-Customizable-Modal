@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomModal</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+        <!-- place for modal -->
+    <div id="place"></div>
+        <!-- button for show modal -->
+    <button type="button" onclick="showModal(options)">Show Modal Window</button> 
+
+
+    <script>
+        let options = {
+            containerID: 'place', // ID of the container
+            title: 'Заголовок вашего окна', // Title of the modal window
+            text: 'Текст для окна', // Text to display  in the modal window
+            actionOkButton: {
+                text: 'Ok', // text for ok Button
+                func: 'ok()' // function for ok button,
+            }
+        }
+    </script>
+</body>
+</html>

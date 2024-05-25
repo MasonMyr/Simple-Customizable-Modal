@@ -1,0 +1,74 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#modalWindow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 50vw;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#modalTitle{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7rem;
+}
+
+.modalBody{
+    font-size: 1.5rem;
+}
+
+.modalFooter{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.modalFooter button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #000000 solid;
+    font-size: 1.3rem;
+    margin-right: 0px;
+}
+
+.modalFooter button:nth-child(2){
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    transition: .7s all;
+}
+
+.modalFooter button:nth-child(2):hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.modalFooter button:nth-child(1){
+    margin-right: 10px;
+    transition: .7s all;
+}
+
+.modalFooter button:nth-child(1):hover{
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #438854;
+}
+
